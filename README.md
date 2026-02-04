@@ -2,7 +2,7 @@
 <img 
       src="images/logo.png" 
       alt="Universidad Técnica Federico Santa María – Dirección General de Educación Continua"
-      style="height: 80px;"
+      style="height: 70px;"
       align="right"
     >
 
