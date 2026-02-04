@@ -4,7 +4,7 @@
       alt="Universidad Técnica Federico Santa María – Dirección General de Educación Continua"
       style="height: 70px;"
       align="right"
-    >
+>
 
 <br><br>
 
