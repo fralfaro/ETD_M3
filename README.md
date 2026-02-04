@@ -2,11 +2,11 @@
 <img 
       src="images/logo.png" 
       alt="Universidad Técnica Federico Santa María – Dirección General de Educación Continua"
-      style="height: 50px;"
+      style="height: 80px;"
       align="right"
     >
 
-<br><br><br><br>
+<br><br>
 
 # Diplomado en Estrategias de Transformación Digital
 
