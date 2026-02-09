@@ -78,6 +78,35 @@ Este ciclo refuerza la idea de que las decisiones no son eventos aislados, sino 
 
 
 
+## 4.1 EL ANÁLISIS EXPLORATORIO COMO PRIMER PASO PARA DECIDIR
+
+Antes de utilizar métricas, construir modelos o automatizar procesos, es fundamental **comprender los datos disponibles**. El **análisis exploratorio de datos (EDA, por sus siglas en inglés)** constituye la primera aproximación sistemática a la información y cumple un rol clave en la toma de decisiones basadas en datos.
+
+El análisis exploratorio busca responder preguntas iniciales como:
+
+* ¿Qué está ocurriendo realmente en los datos?
+* ¿Existen patrones, tendencias o comportamientos atípicos?
+* ¿Hay problemas de calidad, valores faltantes o inconsistencias?
+* ¿Qué variables parecen relevantes para la decisión y cuáles no aportan información útil?
+
+A diferencia de los modelos predictivos o las métricas de desempeño, el análisis exploratorio **no persigue conclusiones definitivas**, sino que permite **entender el contexto**, detectar señales tempranas y evitar interpretaciones erróneas. En este sentido, su valor principal radica en **reducir el riesgo de tomar decisiones basadas en supuestos incorrectos o información mal interpretada**.
+
+Explorar datos implica observar distribuciones, comparar grupos, identificar relaciones simples y reconocer excepciones. Estas acciones permiten construir una primera narrativa de lo que los datos están mostrando, facilitando una lectura crítica y fundamentada antes de avanzar hacia análisis más complejos.
+
+En contextos organizacionales, omitir esta etapa puede conducir a errores frecuentes, como:
+
+* Definir indicadores sobre datos mal comprendidos.
+* Aplicar modelos sobre información sesgada o incompleta.
+* Tomar decisiones apresuradas basadas en promedios que esconden comportamientos relevantes.
+
+Por esta razón, el análisis exploratorio debe entenderse como **un paso obligatorio dentro del ciclo de la toma de decisiones basada en datos**, especialmente cuando las decisiones tienen impacto en personas, recursos o resultados estratégicos. Comprender primero permite decidir mejor.
+
+Este enfoque sienta las bases para, en etapas posteriores, interpretar métricas, evaluar modelos y comunicar resultados de manera más clara y responsable.
+
+<img src="images/img_041.png" align="center" width="500">
+
+
+
 
 ## 5. INDICADORES Y MÉTRICAS PARA DECIDIR
 
