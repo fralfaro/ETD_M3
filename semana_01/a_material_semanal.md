@@ -8,8 +8,7 @@ Tradicionalmente, muchas decisiones han sido guiadas por la experiencia, la intu
 
 Decidir con datos no implica delegar la decisión a los números, sino integrar evidencia confiable al proceso de análisis, permitiendo evaluar alternativas, anticipar riesgos y comunicar decisiones de manera transparente y fundamentada.
 
-> **Imagen sugerida:**
-> Ilustración conceptual de una persona u organización decidiendo entre “intuición” y “datos” (balanza, bifurcación de caminos, cerebro + gráficos).
+<img  src="images/img_01.png" align="center" width = "500">
 
 
 
@@ -21,8 +20,8 @@ Decidir implica seleccionar una alternativa entre varias posibles, asumiendo que
 
 En este sentido, el enfoque basado en datos busca fortalecer la calidad del proceso decisional, entregando herramientas que apoyen el análisis y la reflexión, sin reemplazar el juicio humano ni la responsabilidad de quienes toman decisiones.
 
-> **Imagen sugerida:**
-> Diagrama de contexto organizacional: entorno → información → decisión → resultados.
+<img  src="images/img_02.png" align="center" width = "500">
+
 
 
 
@@ -41,8 +40,8 @@ La evidencia basada en datos permite complementar la intuición, proporcionando 
 
 El desafío no consiste en elegir entre intuición o datos, sino en **integrar ambos enfoques de manera equilibrada**.
 
-> **Imagen sugerida:**
-> Tabla visual comparativa o íconos enfrentados (intuición vs evidencia).
+<img  src="images/img_03.png" align="center" width = "400">
+
 
 
 
@@ -58,8 +57,8 @@ Decidir sin una base de información adecuada puede conducir a errores que afect
 
 Es importante destacar que **disponer de grandes volúmenes de datos no garantiza mejores decisiones**. La calidad, pertinencia y correcta interpretación de la información son factores determinantes.
 
-> **Imagen sugerida:**
-> Íconos de advertencia o esquema de errores comunes en la toma de decisiones.
+<img  src="images/img_04.png" align="center" width = "500">
+
 
 
 
@@ -75,8 +74,8 @@ La toma de decisiones basada en datos puede entenderse como un ciclo continuo qu
 
 Este ciclo refuerza la idea de que las decisiones no son eventos aislados, sino procesos que se retroalimentan continuamente.
 
-> **Imagen sugerida:**
-> Diagrama circular o de flujo del ciclo de los datos.
+<img  src="images/img_05.png" align="center" width = "300">
+
 
 
 
@@ -92,8 +91,8 @@ Se pueden distinguir, entre otros:
 
 Un principio clave es que **una métrica que no influye en una decisión concreta carece de utilidad práctica**.
 
-> **Imagen sugerida:**
-> Ejemplo visual de indicadores o tablero conceptual (dashboard simplificado).
+<img  src="images/img_06.png" align="center" width = "600">
+
 
 
 ## CONCLUSIONES
