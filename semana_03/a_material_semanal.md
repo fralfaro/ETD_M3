@@ -35,8 +35,11 @@ Es fundamental aclarar que:
 > **Mensaje clave:**
 > *La IA no “entiende”: predice patrones.*
 
-> **Imagen sugerida:**
-> Diagrama simple mostrando texto de entrada → modelo → texto de salida.
+<img  src="images/img_01.png" align="center" width = "500"> 
+
+<br>
+
+<img  src="images/img_011.png" align="center" width = "500">
 
 
 
@@ -59,9 +62,7 @@ Desde la toma de decisiones, estos asistentes **no deciden**, pero:
 
 El valor organizacional está en **cómo se integran**, no en la tecnología en sí.
 
-> **Imagen sugerida:**
-> Mapa de casos de uso de asistentes virtuales por área organizacional.
-
+<img  src="images/img_02.png" align="center" width = "500">
 
 
 ## 3. DECISIONES ASISTIDAS VS DECISIONES AUTOMATIZADAS
@@ -85,8 +86,7 @@ En contextos organizacionales, **no toda decisión debe automatizarse**, especia
 > **Frase clave:**
 > *Que algo pueda automatizarse no significa que deba automatizarse.*
 
-> **Imagen sugerida:**
-> Flujo comparativo: humano en el loop vs humano fuera del loop.
+<img  src="images/img_03.png" align="center" width = "500">
 
 
 
@@ -108,8 +108,8 @@ En términos decisionales, esto implica que:
 * La calidad de la salida depende de la calidad de la instrucción.
 * Resultados pobres no siempre implican “mala IA”, sino **mal planteamiento del problema**.
 
-> **Imagen sugerida:**
-> Embudo de “prompt simple” → “prompt estructurado”.
+<img  src="images/img_04.png" align="center" width = "500">
+
 
 
 
@@ -127,9 +127,6 @@ Desde la toma de decisiones, esto implica que:
 * No toda respuesta debe tomarse como válida.
 * Es necesario verificar información crítica.
 * El juicio humano sigue siendo indispensable.
-
-> **Imagen sugerida:**
-> Íconos de advertencia asociados a errores, sesgos y ambigüedad.
 
 
 
@@ -150,8 +147,7 @@ Al utilizar IA en decisiones organizacionales, existe el riesgo de:
 > **Mensaje clave:**
 > *La IA no elimina sesgos: puede amplificarlos.*
 
-> **Imagen sugerida:**
-> Balanza ética con datos de un lado y personas del otro.
+<img  src="images/img_05.png" align="center" width = "500">
 
 
 
@@ -188,8 +184,8 @@ El uso organizacional de la IA debe regirse por principios éticos claros :
 
 La ética no es un obstáculo, sino un **marco de confianza** que permite un uso sostenible de la tecnología.
 
-> **Imagen sugerida:**
-> Checklist ético o marco de principios.
+
+<img  src="images/img_07.png" align="center" width = "500">
 
 
 

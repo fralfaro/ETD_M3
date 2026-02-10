@@ -8,8 +8,7 @@ Sin embargo, muchas decisiones estratégicas no solo requieren entender el pasad
 
 Los modelos predictivos permiten utilizar información histórica para **estimar probabilidades, tendencias o comportamientos futuros**, apoyando decisiones en contextos complejos y dinámicos. No reemplazan el juicio humano ni garantizan certezas absolutas, pero ofrecen una base analítica que fortalece la planificación, la gestión del riesgo y la asignación de recursos.
 
-> **Imagen sugerida:**
-> Ilustración conceptual del tiempo: pasado → presente → futuro, con datos transformándose en predicciones.
+<img  src="images/img_01.jpg" align="center" width = "500">
 
 
 
@@ -26,8 +25,8 @@ Ejemplos de uso en organizaciones incluyen:
 * Priorización de casos que requieren intervención temprana.
 * Detección de situaciones anómalas o excepcionales.
 
-> **Imagen sugerida:**
-> Esquema simple: datos históricos → modelo → predicción → decisión humana.
+  <img  src="images/img_02.png" align="center" width = "500">
+
 
 
 
@@ -44,8 +43,7 @@ Los modelos predictivos se sitúan en el tercer nivel. Su función principal es 
 
 Por ejemplo, conocer cuántos casos presentan mayor probabilidad de ocurrencia permite priorizar esfuerzos, diseñar planes de acción y evaluar impactos potenciales antes de que los problemas se materialicen.
 
-> **Imagen sugerida:**
-> Pirámide o escalera de niveles de análisis (descriptivo → predictivo).
+<img  src="images/img_03.webp" align="center" width = "500">
 
 
 
@@ -83,8 +81,7 @@ Ejemplo:
 
 * Listado de casos desde mayor a menor urgencia de intervención.
 
-> **Imagen sugerida:**
-> Ranking visual o semáforo (verde–amarillo–rojo) aplicado a casos.
+<img  src="images/img_04.jpg" align="center" width = "500">
 
 
 
@@ -104,8 +101,8 @@ Un error frecuente es delegar completamente la decisión en el modelo, sin cuest
 > **Frase clave:**
 > *Un modelo no decide, sugiere escenarios.*
 
-> **Imagen sugerida:**
-> Figura humana analizando un gráfico antes de decidir.
+<img  src="images/img_05.jpg" align="center" width = "500">
+
 
 
 
@@ -121,9 +118,7 @@ Algunas preguntas clave para el proceso decisional:
 
 Comprender estas dimensiones permite ajustar la forma en que se utilizan las predicciones y evitar decisiones automáticas o descontextualizadas.
 
-> **Imagen sugerida:**
-> Esquema conceptual de errores y consecuencias (sin fórmulas).
-
+<img  src="images/img_06.png" align="center" width = "500">
 
 
 ## 6. INTERPRETACIÓN DE RESULTADOS PREDICTIVOS
@@ -137,8 +132,7 @@ Interpretar un modelo predictivo implica ir más allá del resultado final. Algu
 
 La capacidad de interpretación es especialmente relevante para líderes y tomadores de decisiones, quienes deben traducir los resultados técnicos en **acciones estratégicas concretas**.
 
-> **Imagen sugerida:**
-> Gráfico simple con explicación textual (ejemplo de predicción con incertidumbre).
+<img  src="images/img_07.webp" align="center" width = "500">
 
 
 
@@ -153,8 +147,7 @@ Los modelos predictivos presentan limitaciones que deben ser reconocidas:
 
 El uso responsable de modelos implica reconocer estas limitaciones y combinarlos con una reflexión ética y organizacional, evitando decisiones que puedan generar efectos adversos no deseados.
 
-> **Imagen sugerida:**
-> Ícono de advertencia o balanza entre beneficios y riesgos.
+<img  src="images/img_08.webp" align="center" width = "500">
 
 
 
