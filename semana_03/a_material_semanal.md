@@ -108,7 +108,7 @@ En términos decisionales, esto implica que:
 * La calidad de la salida depende de la calidad de la instrucción.
 * Resultados pobres no siempre implican “mala IA”, sino **mal planteamiento del problema**.
 
-<img  src="images/img_04.png" align="center" width = "500">
+<img  src="images/img_04.png" align="center" width = "800">
 
 
 
@@ -147,7 +147,7 @@ Al utilizar IA en decisiones organizacionales, existe el riesgo de:
 > **Mensaje clave:**
 > *La IA no elimina sesgos: puede amplificarlos.*
 
-<img  src="images/img_05.png" align="center" width = "500">
+<img  src="images/img_05.png" align="center" width = "600">
 
 
 
@@ -185,7 +185,7 @@ El uso organizacional de la IA debe regirse por principios éticos claros :
 La ética no es un obstáculo, sino un **marco de confianza** que permite un uso sostenible de la tecnología.
 
 
-<img  src="images/img_07.png" align="center" width = "500">
+<img  src="images/img_07.png" align="center" width = "800">
 
 
 
