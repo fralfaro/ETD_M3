@@ -1,222 +1,355 @@
-# Inteligencia Artificial en la Toma de Decisiones
+﻿# Inteligencia Artificial en la Toma de Decisiones
 
 ## Alcances, límites y uso responsable
 
+---
+
 ## INTRODUCCIÓN
 
-En las semanas anteriores se abordaron los fundamentos de la toma de decisiones basadas en datos y el rol de los modelos predictivos como herramientas para anticipar escenarios futuros. En ambos casos, se enfatizó que los datos y los modelos **no reemplazan la decisión humana**, sino que la apoyan.
+En las semanas anteriores se abordaron los fundamentos de la **toma de decisiones basadas en datos** y el rol de los **modelos predictivos** como herramientas para anticipar escenarios futuros. En ambos casos se enfatizó una idea central: los datos y los modelos **no reemplazan la decisión humana**, sino que la apoyan proporcionando información adicional para el análisis.
 
-En esta tercera semana, el foco se desplaza hacia la **inteligencia artificial (IA)**, particularmente hacia los **modelos de lenguaje y asistentes inteligentes**, que hoy se integran crecientemente en procesos organizacionales, educativos y productivos. Estas tecnologías permiten automatizar tareas, generar contenido, apoyar análisis y facilitar la interacción humano–máquina.
+En esta tercera semana el foco se desplaza hacia la **inteligencia artificial (IA)**, particularmente hacia los **modelos de lenguaje y asistentes inteligentes**, tecnologías que hoy se integran cada vez con mayor frecuencia en procesos organizacionales, educativos y productivos.
 
-Sin embargo, su uso plantea nuevos desafíos: **¿qué tan confiables son?, ¿qué pueden y qué no pueden hacer?, ¿qué riesgos implican?, ¿cuándo es apropiado usarlas en decisiones organizacionales?**
-Responder estas preguntas es clave para una adopción responsable y estratégica de la IA.
+Estas herramientas permiten:
 
-> **Imagen sugerida:**
-> Ilustración de una persona interactuando con un asistente de IA, con un humano supervisando el proceso.
+- automatizar ciertas tareas cognitivas
+- generar y sintetizar información
+- apoyar procesos de análisis
+- facilitar la interacción entre personas y sistemas digitales
 
+Sin embargo, su creciente uso también plantea nuevos desafíos:
 
+- ¿Qué tan confiables son estos sistemas?
+- ¿Qué pueden y qué no pueden hacer?
+- ¿Qué riesgos implica su uso?
+- ¿En qué situaciones es apropiado utilizarlos en procesos de decisión?
+
+Responder estas preguntas es fundamental para que las organizaciones puedan **adoptar la inteligencia artificial de manera responsable, estratégica y consciente de sus límites**.
+
+Además, es importante comprender que la inteligencia artificial no es una única tecnología. Bajo este término se agrupan distintos tipos de sistemas capaces de **identificar patrones en datos y producir resultados automatizados**, entre ellos:
+
+- modelos predictivos
+- sistemas de recomendación
+- sistemas de detección de anomalías
+- visión computacional
+- modelos de lenguaje
+
+En esta semana nos centraremos especialmente en **modelos de lenguaje y asistentes inteligentes**, ya que son las herramientas que actualmente se integran con mayor rapidez en el trabajo cotidiano.
+
+> **Imagen sugerida**  
+> Ilustración de interacción humano–IA donde una persona revisa o valida la respuesta de un asistente inteligente.
+
+---
 
 ## 1. ¿QUÉ ES (Y QUÉ NO ES) LA INTELIGENCIA ARTIFICIAL?
 
-En el contexto actual, gran parte de las aplicaciones de IA utilizadas en organizaciones corresponden a **modelos de lenguaje de gran escala (LLM)**, como los que dan origen a asistentes virtuales tipo ChatGPT, Gemini o Meta AI .
+La inteligencia artificial es un campo amplio que incluye tecnologías capaces de **aprender patrones a partir de datos y generar resultados basados en esos patrones**.
 
-Estos modelos:
+En el contexto actual, muchas de las aplicaciones más visibles corresponden a **modelos de lenguaje de gran escala (Large Language Models, LLM)**, que dan origen a asistentes virtuales como ChatGPT, Gemini o Meta AI.
 
-* Se entrenan con grandes volúmenes de texto.
-* Aprenden patrones del lenguaje.
-* Generan respuestas **prediciendo palabra por palabra**, sin comprender realmente el contenido.
+Estos modelos funcionan mediante tres principios fundamentales:
 
-Es fundamental aclarar que:
+- Se entrenan con **grandes volúmenes de texto** provenientes de múltiples fuentes.
+- Aprenden **patrones estadísticos del lenguaje**.
+- Generan respuestas **prediciendo la siguiente palabra más probable en una secuencia**.
 
-* Los modelos **no razonan como humanos**.
-* No tienen conciencia ni intención.
-* No distinguen verdad de falsedad por sí mismos.
+Esto significa que los modelos de lenguaje producen texto que **parece coherente y razonado**, pero en realidad se basa en cálculos probabilísticos sobre secuencias de palabras.
 
-> **Mensaje clave:**
-> *La IA no “entiende”: predice patrones.*
+Por esta razón es importante comprender que:
 
-<img  src="images/img_01.png" align="center" width = "500"> 
+- Los modelos **no razonan como humanos**.
+- No poseen conciencia ni intención.
+- No distinguen por sí mismos entre información verdadera o falsa.
+- No tienen comprensión real del contenido que generan.
 
-<br>
+Esto no implica que sean inútiles. Por el contrario, pueden ser herramientas muy poderosas cuando se utilizan con criterio y comprensión de sus limitaciones.
 
-<img  src="images/img_011.png" align="center" width = "500">
+> **Mensaje clave**  
+> *La IA no “entiende”: identifica y reproduce patrones.*
 
+> **Imagen sugerida**  
+> Diagrama simple:  
+> **Texto de entrada → Modelo de lenguaje → Probabilidades de palabras → Respuesta generada**
 
+---
 
 ## 2. ASISTENTES VIRTUALES EN CONTEXTOS ORGANIZACIONALES
 
-Los asistentes virtuales basados en IA permiten interactuar en lenguaje natural y se utilizan hoy en múltiples ámbitos :
+Los asistentes virtuales basados en IA permiten interactuar con sistemas informáticos utilizando **lenguaje natural**, lo que reduce las barreras técnicas para su uso.
 
-* Educación: apoyo tutorial
-* Atención a clientes: respuestas automáticas
-* Gestión: redacción, resumen y análisis
-* Software: generación y explicación de código
-* Comunicación interna: apoyo documental
+Actualmente se utilizan en múltiples contextos organizacionales.
 
-Desde la toma de decisiones, estos asistentes **no deciden**, pero:
+### Educación
 
-* Entregan información
-* Generan alternativas
-* Apoyan la reflexión
-* Aceleran procesos cognitivos
+- apoyo tutorial
+- explicación de contenidos
+- generación de material educativo
 
-El valor organizacional está en **cómo se integran**, no en la tecnología en sí.
+### Atención a clientes
 
-<img  src="images/img_02.png" align="center" width = "500">
+- respuestas automáticas
+- resolución de consultas frecuentes
+- apoyo a agentes humanos
 
+### Gestión organizacional
+
+- redacción de documentos
+- síntesis de información
+- análisis preliminar de textos
+
+### Desarrollo de software
+
+- generación de código
+- explicación de errores
+- apoyo a tareas de programación
+
+### Comunicación interna
+
+- organización de información
+- elaboración de reportes
+- asistencia documental
+
+Desde la perspectiva de la toma de decisiones, estos sistemas **no toman decisiones por sí mismos**, pero pueden:
+
+- entregar información relevante
+- generar alternativas de análisis
+- resumir escenarios complejos
+- acelerar procesos de revisión de información
+
+El verdadero valor organizacional no está únicamente en la tecnología, sino en **cómo se integra en los procesos de trabajo y decisión**.
+
+Una organización que incorpora IA sin adaptar sus procesos difícilmente obtendrá beneficios significativos.
+
+> **Idea clave**  
+> El valor de la IA no está solo en la herramienta, sino en **cómo se integra en los procesos organizacionales**.
+
+> **Imagen sugerida**  
+> Flujo simple:  
+> Humano → Consulta → IA → Respuesta → Evaluación humana
+
+---
 
 ## 3. DECISIONES ASISTIDAS VS DECISIONES AUTOMATIZADAS
 
-Uno de los conceptos centrales de esta semana es distinguir entre dos enfoques:
+Uno de los conceptos centrales para comprender el uso de IA en organizaciones es distinguir entre **decisiones asistidas** y **decisiones automatizadas**.
 
 ### Decisiones asistidas por IA
 
-* La IA entrega recomendaciones o información.
-* El humano evalúa y decide.
-* Existe supervisión y responsabilidad clara.
+En este enfoque, la inteligencia artificial funciona como **herramienta de apoyo**.
+
+- La IA entrega información o recomendaciones.
+- El humano evalúa los resultados.
+- La decisión final sigue siendo responsabilidad de la persona.
+
+Este modelo es el más común en contextos organizacionales donde se requiere **criterio profesional, responsabilidad institucional o evaluación contextual**.
 
 ### Decisiones automatizadas
 
-* El sistema ejecuta la decisión sin intervención humana.
-* Mayor riesgo ético, legal y reputacional.
-* Requiere marcos de gobernanza estrictos.
+En este caso, el sistema **ejecuta directamente la decisión** sin intervención humana.
 
-En contextos organizacionales, **no toda decisión debe automatizarse**, especialmente aquellas con alto impacto humano.
+Ejemplos posibles incluyen:
 
-> **Frase clave:**
+- aprobación automática de transacciones
+- sistemas de detección de fraude
+- sistemas de asignación automática de recursos
+
+Este tipo de sistemas puede ser eficiente, pero también implica mayores riesgos:
+
+- errores automatizados
+- dificultad para explicar decisiones
+- problemas legales o reputacionales
+
+Por esta razón, **no toda decisión debe automatizarse**, especialmente aquellas que tienen alto impacto sobre las personas.
+
+> **Frase clave**  
 > *Que algo pueda automatizarse no significa que deba automatizarse.*
 
-<img  src="images/img_03.png" align="center" width = "500">
+> **Imagen sugerida**  
+> Comparación visual:  
+> IA → recomendación → humano decide  
+> vs  
+> IA → decisión automática
 
-
+---
 
 ## 4. PROMPTS: CÓMO INTERACTUAMOS CON LA IA
 
-Los **prompts** son las instrucciones que se entregan a un modelo de lenguaje para guiar su respuesta .
-Un buen prompt **no es magia**, sino diseño consciente.
+Los **prompts** son las instrucciones o preguntas que se entregan a un modelo de lenguaje para orientar su respuesta.
 
-Elementos clave de un buen prompt:
+La interacción con estos sistemas depende en gran medida de **cómo se formula la solicitud**. Un buen prompt no es un truco técnico, sino una forma clara de **definir un problema o una tarea**.
 
-* Rol del modelo
-* Tarea clara
-* Contexto relevante
-* Detalles y restricciones
-* Ejemplos cuando sea necesario
+Un prompt efectivo suele incluir:
+
+- **Rol del modelo**  
+  (por ejemplo: “actúa como analista de datos”)
+
+- **Tarea clara**  
+  (qué se espera que haga)
+
+- **Contexto relevante**  
+  (información necesaria para comprender el problema)
+
+- **Restricciones o criterios específicos**
+
+- **Ejemplos cuando sea necesario**
 
 En términos decisionales, esto implica que:
 
-* La calidad de la salida depende de la calidad de la instrucción.
-* Resultados pobres no siempre implican “mala IA”, sino **mal planteamiento del problema**.
+- La calidad de la respuesta depende en gran medida de la **calidad de la pregunta**.
+- Resultados deficientes no siempre reflejan fallas de la IA, sino **problemas en la formulación del problema**.
 
-<img  src="images/img_04.png" align="center" width = "800">
+Aprender a utilizar asistentes de IA implica, en muchos casos, **aprender a definir mejor las preguntas y problemas que se quieren resolver**.
 
+> **Imagen sugerida**  
+> Diagrama tipo embudo:  
+> Idea inicial → Contexto → Tarea → Restricciones → Prompt refinado
 
-
+---
 
 ## 5. PROBLEMAS COMUNES DE LOS MODELOS DE LENGUAJE
 
-Según lo expuesto en el material base, los LLM presentan limitaciones recurrentes :
+Aunque los modelos de lenguaje pueden generar respuestas útiles, también presentan limitaciones importantes.
 
-* Información incorrecta o inventada
-* Respuestas ambiguas
-* Sesgos heredados de los datos
-* Uso de información obsoleta
+Entre los problemas más frecuentes se encuentran:
 
-Desde la toma de decisiones, esto implica que:
+- **Información incorrecta o inventada**  
+- **Respuestas ambiguas o poco precisas**
+- **Sesgos presentes en los datos de entrenamiento**
+- **Uso de información desactualizada**
 
-* No toda respuesta debe tomarse como válida.
-* Es necesario verificar información crítica.
-* El juicio humano sigue siendo indispensable.
+Este fenómeno se conoce a veces como **alucinaciones de la IA**, cuando el modelo produce información que parece plausible pero no es correcta.
 
+Desde la perspectiva de la toma de decisiones, esto implica que:
 
+- No toda respuesta generada por IA debe considerarse correcta.
+- La información crítica debe **verificarse con fuentes confiables**.
+- El juicio humano sigue siendo indispensable para evaluar resultados.
+
+> **Idea clave**  
+> La IA puede ser un buen punto de partida para el análisis, pero **no debe ser la única fuente de decisión**.
+
+> **Imagen sugerida**  
+> Cuatro cuadrantes:  
+> error factual – ambigüedad – sesgo – información obsoleta
+
+---
 
 ## 6. SESGOS Y RIESGOS EN EL USO DE IA
 
-La IA aprende de datos históricos, y esos datos pueden contener:
+La inteligencia artificial aprende a partir de **datos históricos**. Si esos datos contienen sesgos o desigualdades, el sistema puede reproducirlos.
 
-* Sesgos sociales
-* Desigualdades estructurales
-* Decisiones pasadas injustas
+Entre los posibles problemas se encuentran:
 
-Al utilizar IA en decisiones organizacionales, existe el riesgo de:
+- sesgos sociales presentes en los datos
+- desigualdades estructurales reflejadas en información histórica
+- decisiones pasadas que pudieron haber sido injustas
 
-* Reproducir discriminación
-* Amplificar inequidades
-* Ocultar decisiones injustas bajo una apariencia técnica
+Cuando estos datos se utilizan para entrenar sistemas de IA, existe el riesgo de:
 
-> **Mensaje clave:**
+- reproducir discriminación
+- amplificar desigualdades
+- ocultar decisiones problemáticas bajo una apariencia técnica.
+
+> **Mensaje clave**  
 > *La IA no elimina sesgos: puede amplificarlos.*
 
-<img  src="images/img_05.png" align="center" width = "600">
+Por esta razón, las organizaciones deben evaluar cuidadosamente **qué datos utilizan y cómo interpretan los resultados generados por los sistemas de IA**.
 
-
+---
 
 ## 7. EXPLICABILIDAD Y TRANSPARENCIA
 
-Para una toma de decisiones responsable, es fundamental preguntarse:
+Para utilizar IA en procesos de decisión responsables es fundamental considerar la **explicabilidad** de los sistemas.
 
-* ¿Podemos explicar por qué el sistema entregó esta respuesta?
-* ¿Podemos justificar la decisión frente a terceros?
-* ¿Quién asume la responsabilidad final?
+Esto implica poder responder preguntas como:
 
-La explicabilidad:
+- ¿Por qué el sistema generó esta recomendación?
+- ¿Podemos explicar la decisión frente a terceros?
+- ¿Quién asume la responsabilidad final?
 
-* Aumenta la confianza
-* Facilita la rendición de cuentas
-* Protege a la organización
+La explicabilidad cumple varias funciones importantes:
 
-Un sistema útil no solo debe funcionar, sino **poder explicarse**.
+- aumenta la confianza en los sistemas
+- facilita la rendición de cuentas
+- protege a las organizaciones frente a riesgos legales o reputacionales.
 
-> **Imagen sugerida:**
-> Caja negra vs caja transparente.
+Un sistema útil no solo debe producir resultados, sino también **permitir comprender cómo se llegó a ellos**.
 
+> **Imagen sugerida**  
+> Comparación visual entre **modelo caja negra** y **modelo explicable**.
 
+---
 
 ## 8. ÉTICA Y USO RESPONSABLE DE LA IA
 
-El uso organizacional de la IA debe regirse por principios éticos claros :
+El uso organizacional de la inteligencia artificial debe guiarse por principios éticos claros.
 
-* Responsabilidad
-* Transparencia
-* Justicia
-* Supervisión humana
-* Protección de datos
+Entre los más relevantes se encuentran:
 
-La ética no es un obstáculo, sino un **marco de confianza** que permite un uso sostenible de la tecnología.
+- **Responsabilidad**
+- **Transparencia**
+- **Justicia y no discriminación**
+- **Supervisión humana**
+- **Protección de datos**
 
+La ética no debe entenderse como un obstáculo para la innovación, sino como un **marco de confianza que permite utilizar la tecnología de manera sostenible y responsable**.
 
-<img  src="images/img_07.png" align="center" width = "800">
+Las organizaciones que integran estos principios en sus procesos suelen desarrollar **mayor legitimidad, confianza y estabilidad en el uso de tecnologías emergentes**.
 
-
+---
 
 ## 9. ¿CUÁNDO NO USAR IA?
 
-Tan importante como saber usar IA es saber **cuándo no hacerlo**:
+Tan importante como saber utilizar la inteligencia artificial es reconocer **cuándo no es apropiado utilizarla**.
 
-* Cuando no se puede explicar el resultado
-* Cuando los datos son insuficientes o sesgados
-* Cuando el impacto humano es alto
-* Cuando no hay responsables claros
+Algunas situaciones donde se recomienda cautela incluyen:
 
-Decidir **no usar IA** también es una decisión estratégica válida.
+- cuando no es posible explicar el resultado del sistema
+- cuando los datos disponibles son insuficientes o sesgados
+- cuando el impacto humano de la decisión es muy alto
+- cuando no existe una responsabilidad clara sobre el proceso decisional.
 
+En estos casos, **decidir no utilizar IA puede ser una decisión estratégica correcta**.
 
+---
+
+## 10. GUÍA BREVE DE IMPLEMENTACIÓN RESPONSABLE DE IA
+
+Para integrar inteligencia artificial en una organización de forma segura y efectiva, se recomienda considerar los siguientes pasos:
+
+1. Identificar tareas adecuadas para IA (preferentemente de bajo o medio impacto).
+2. Mantener supervisión humana en decisiones críticas.
+3. Establecer mecanismos de verificación de resultados.
+4. Proteger datos sensibles y limitar la información compartida con sistemas externos.
+5. Documentar prompts, decisiones y responsables.
+6. Revisar periódicamente posibles sesgos o efectos no deseados.
+
+Aplicar estas prácticas permite **reducir riesgos operativos, éticos y reputacionales**, facilitando una adopción más segura de estas tecnologías.
+
+---
 
 ## CONCLUSIONES
 
-La inteligencia artificial ofrece un enorme potencial para apoyar la toma de decisiones organizacionales, especialmente a través de asistentes inteligentes y modelos de lenguaje. Sin embargo, su uso requiere comprensión, criterio y responsabilidad.
+La inteligencia artificial ofrece un enorme potencial para apoyar la toma de decisiones organizacionales, especialmente a través de asistentes inteligentes y modelos de lenguaje.
 
-A lo largo de esta semana se ha enfatizado que la IA **no es magia**, sino una herramienta basada en patrones, datos y diseño humano. Su valor no está en reemplazar al decisor, sino en ampliar su capacidad de análisis y reflexión.
+Sin embargo, su uso requiere comprensión, criterio y responsabilidad. Estas herramientas no sustituyen el juicio humano, sino que amplían las capacidades de análisis, síntesis y exploración de información.
 
-El desafío para las organizaciones no es adoptar IA sin límites, sino **integrarla de forma ética, explicable y alineada con sus valores y objetivos estratégicos**.
+A lo largo de esta semana se ha enfatizado que la IA **no es magia**, sino una tecnología basada en datos, patrones y diseño humano.
 
+El verdadero desafío para las organizaciones no es simplemente adoptar inteligencia artificial, sino **integrarla de forma ética, explicable y alineada con sus objetivos estratégicos**.
 
+---
 
 ## BIBLIOGRAFÍA BASE
 
-* Canales, V. (2025). *No es Magia, es Ciencia: Cómo conversar mejor con asistentes de IA*. Seth&Nut. 
 * OECD. (2020). *Artificial Intelligence in Society*. OECD Publishing.
+
+  > Discusión sobre riesgos, beneficios y uso responsable de la IA en la sociedad.
+
 * Floridi, L. et al. (2018). *AI4People—An Ethical Framework for a Good AI Society*.
+
+  > Marco ético para diseñar e implementar IA centrada en el bien común.
+
 * Davenport, T. H. (2018). *The AI Advantage*. MIT Press.
 
-
+  > Enfoque práctico sobre cómo aplicar IA para generar valor en organizaciones.

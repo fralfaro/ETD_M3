@@ -35,8 +35,9 @@ No es necesario modificar el código del notebook.
 3. Observa con atención:
    - Las tablas de estadísticas descriptivas.
    - Los gráficos generados.
-4. Responde las preguntas de análisis indicadas a continuación en un documento Markdown o PDF.
-5. Fundamenta tus respuestas utilizando la información observada en el notebook.
+4. Responde las siguientes preguntas de análisis en Google Colab, utilizando celdas en formato Markdown dentro del notebook.
+5. Justifica tus respuestas a partir de la información, resultados y gráficos obtenidos en el notebook.
+6. Finalmente, descarga el archivo del notebook (.ipynb) y súbelo al Aula para su evaluación.
 
 
 

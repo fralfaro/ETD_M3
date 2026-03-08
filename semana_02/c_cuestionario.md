@@ -1,4 +1,4 @@
-# CUESTIONARIO
+﻿# CUESTIONARIO
 
 ### Pregunta 01
 
@@ -9,7 +9,8 @@
 * C. Anticipar escenarios futuros a partir de datos históricos
 * D. Sustituir el criterio profesional de los directivos
 
-
+> **RESPUESTA CORRECTA:** C <br>
+> **EXPLICACIÓN:** Un modelo predictivo estima escenarios probables usando patrones de datos históricos.
 
 ### Pregunta 02
 
@@ -20,7 +21,8 @@
 * C. Análisis predictivo
 * D. Análisis exploratorio
 
-
+> **RESPUESTA CORRECTA:** C <br>
+> **EXPLICACIÓN:** El análisis predictivo se enfoca en anticipar comportamientos o resultados futuros.
 
 ### Pregunta 03
 
@@ -31,7 +33,8 @@
 * C. Probabilidades y estimaciones
 * D. Reglas fijas e invariables
 
-
+> **RESPUESTA CORRECTA:** C <br>
+> **EXPLICACIÓN:** Las salidas son estimaciones con incertidumbre, no certezas garantizadas.
 
 ### Pregunta 04
 
@@ -42,7 +45,8 @@
 * C. Identificar si un caso es de riesgo alto o bajo
 * D. Calcular el promedio histórico de ingresos
 
-
+> **RESPUESTA CORRECTA:** C <br>
+> **EXPLICACIÓN:** Clasificación significa asignar casos a categorías definidas (por ejemplo, alto o bajo riesgo).
 
 ### Pregunta 05
 
@@ -53,7 +57,8 @@
 * C. Porque dependen del contexto, los datos y sus supuestos
 * D. Porque eliminan la necesidad de análisis organizacional
 
-
+> **RESPUESTA CORRECTA:** C <br>
+> **EXPLICACIÓN:** El valor del modelo depende de cómo fue construido y del contexto en que se aplica.
 
 ### Pregunta 06
 
@@ -64,7 +69,8 @@
 * C. Mejora garantizada de los resultados
 * D. Eliminación de sesgos
 
-
+> **RESPUESTA CORRECTA:** B <br>
+> **EXPLICACIÓN:** Sin supervisión, se puede decidir en automático y perder análisis estratégico y control.
 
 ### Pregunta 07
 
@@ -75,7 +81,8 @@
 * C. Una fuente de verdad incuestionable
 * D. Un sistema autónomo de decisión
 
-
+> **RESPUESTA CORRECTA:** B <br>
+> **EXPLICACIÓN:** El modelo apoya la decisión; no reemplaza responsabilidad ni criterio humano.
 
 ### Pregunta 08
 
@@ -86,7 +93,8 @@
 * C. La calidad y representatividad de los datos
 * D. El número de personas que lo interpretan
 
-
+> **RESPUESTA CORRECTA:** C <br>
+> **EXPLICACIÓN:** Datos de mala calidad generan predicciones poco confiables, aunque el modelo sea avanzado.
 
 ### Pregunta 09
 
@@ -97,7 +105,8 @@
 * C. Es necesario evaluar qué tipo de error es más costoso
 * D. Los errores solo ocurren en modelos mal diseñados
 
-
+> **RESPUESTA CORRECTA:** C <br>
+> **EXPLICACIÓN:** En gestión importa medir el costo de cada error para decidir umbrales y acciones.
 
 ### Pregunta 10
 
@@ -107,4 +116,12 @@
 * B. Ignorar el contexto organizacional
 * C. Reconocer sesgos, limitaciones y consecuencias
 * D. Confiar exclusivamente en los resultados del modelo
+
+> **RESPUESTA CORRECTA:** C <br>
+> **EXPLICACIÓN:** El uso responsable exige considerar riesgos, sesgos e impacto de las decisiones.
+
+
+
+
+
 

@@ -57,8 +57,10 @@ El modelo predice la probabilidad de que un estudiante pertenezca a la categorí
    - Las métricas de evaluación del modelo.
    - La matriz de confusión.
    - La curva ROC y el valor AUC.
-4. Responde las preguntas de análisis que se presentan a continuación.
-5. Fundamenta tus respuestas utilizando exclusivamente los resultados observados en el notebook.
+4. Responde las siguientes preguntas de análisis en Google Colab, utilizando celdas en formato Markdown dentro del notebook.
+5. Justifica tus respuestas a partir de la información, resultados y gráficos obtenidos en el notebook.
+6. Finalmente, descarga el archivo del notebook (.ipynb) y súbelo al Aula para su evaluación.
+
 
 
 
@@ -66,44 +68,43 @@ El modelo predice la probabilidad de que un estudiante pertenezca a la categorí
 
 ### 1. Comprensión del problema
 
-- ¿Cuál es el objetivo principal del modelo de machine learning?
-- ¿Qué significa predecir correctamente un estudiante de alto riesgo?
-- ¿Por qué este problema se considera una tarea de clasificación binaria?
+- ¿Cuál es el objetivo del modelo de machine learning presentado en el notebook?
+- ¿Qué significa predecir correctamente a un estudiante de **alto riesgo**?
+- ¿Por qué este problema corresponde a una **clasificación binaria**?
 
 
-### 2. Interpretación de métricas
 
-A partir de los valores mostrados en el notebook:
+### 2. Interpretación de métricas del modelo
 
-- ¿Qué mide la métrica **accuracy** en este contexto?
-- ¿Qué información entrega la **precision** para la clase de alto riesgo?
-- ¿Qué significa un valor bajo o alto de **recall** en este problema?
-- ¿Por qué el **F1-score** puede ser más informativo que la accuracy?
+A partir de los resultados mostrados en el notebook:
+
+- Explica qué miden las métricas **accuracy, precision, recall y F1-score** en este contexto.
+- ¿Cuál de estas métricas consideras más relevante para este problema? Justifica tu respuesta.
+
 
 
 ### 3. Análisis de la matriz de confusión
 
-Utilizando la matriz de confusión:
+Observando la matriz de confusión:
 
-- Identifica los **verdaderos positivos**, **verdaderos negativos**, **falsos positivos** y **falsos negativos**.
-- ¿Qué representa un **falso positivo** en este contexto académico?
-- ¿Qué representa un **falso negativo**?
+- Identifica los **verdaderos positivos, verdaderos negativos, falsos positivos y falsos negativos**.
+- ¿Qué representan los **falsos positivos** y los **falsos negativos** en el contexto académico?
 - ¿Cuál de estos errores consideras más grave? Justifica tu respuesta.
 
 
-### 4. Curva ROC y AUC
 
-- ¿Qué información entrega la curva ROC?
-- ¿Qué interpretación tiene el valor AUC obtenido?
-- ¿El modelo discrimina adecuadamente entre estudiantes de alto y bajo riesgo?
+### 4. Evaluación del desempeño del modelo
+
+- ¿Qué información entrega la **curva ROC**?
+- ¿Cómo interpretas el valor **AUC** obtenido?
+- En términos generales, ¿el modelo discrimina adecuadamente entre estudiantes de alto y bajo riesgo?
 
 
+### 5. Reflexión crítica
 
-### 5. Evaluación crítica del modelo
-
-- ¿Consideras que el modelo funciona bien? Fundamenta tu respuesta.
-- ¿En qué escenarios este modelo podría ser útil?
-- ¿Qué riesgos existen al utilizar este modelo sin supervisión humana?
+- ¿Consideras que el modelo podría ser útil en un contexto educativo? Explica en qué situaciones.
+- ¿Qué riesgos podrían existir al utilizar este modelo sin supervisión humana?
+- ¿Qué mejoras (por ejemplo, nuevas variables o métricas) podrían ayudar a mejorar el modelo?
 
 
 ### 6. Reflexión y mejoras

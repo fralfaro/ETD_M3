@@ -1,147 +1,209 @@
-# Actividad: Uso Crítico de un Chatbot de IA en la Toma de Decisiones
+# Actividad: Uso Crítico de Inteligencia Artificial para Apoyo en Programación
 
 ## Contexto de la actividad
 
-En esta actividad trabajarás con un **chatbot basado en inteligencia artificial** (modelo de lenguaje) que será utilizado como **herramienta de apoyo a la toma de decisiones** en un contexto organizacional.
+En esta actividad trabajarás con un notebook en Google Colab que contiene fragmentos simples de código en Python relacionados con análisis de datos.
 
-Los chatbots de IA pueden:
+El objetivo no es evaluar tu capacidad de programar desde cero, sino **analizar cómo un asistente de inteligencia artificial puede apoyar la resolución de tareas de programación y qué limitaciones presenta**.
 
-* Generar textos
-* Resumir información
-* Proponer alternativas
-* Sugerir cursos de acción
+Durante la actividad utilizarás un asistente de IA (por ejemplo ChatGPT, Gemini, Claude u otro) para:
 
-Sin embargo, **no toman decisiones por sí mismos**, ni garantizan que sus respuestas sean correctas, completas o libres de sesgos.
+- formular preguntas sobre el código
+- solicitar ayuda para completar o mejorar funciones
+- interpretar resultados
+- evaluar la calidad de las respuestas obtenidas
 
-El objetivo de esta actividad no es evaluar la capacidad técnica del chatbot, sino **analizar críticamente sus respuestas, comprender sus limitaciones y reflexionar sobre su uso responsable en procesos de decisión reales**.
+A lo largo del notebook deberás **documentar tu interacción con la IA**, incluyendo:
 
+- el prompt utilizado
+- la respuesta del sistema
+- tu evaluación crítica del resultado
+- posibles ajustes al prompt
 
+De esta forma se busca comprender **cómo utilizar asistentes de IA de forma crítica y responsable en tareas técnicas**.
+
+---
 
 ## Objetivo de Aprendizaje
 
-Al finalizar esta actividad, el estudiante será capaz de:
+Al finalizar esta actividad el estudiante será capaz de:
 
-* Comprender el rol de un chatbot de IA como apoyo a la toma de decisiones.
-* Formular prompts claros y estructurados.
-* Analizar críticamente las respuestas generadas por un sistema de IA.
-* Identificar riesgos, sesgos y limitaciones de la IA.
-* Reflexionar sobre el uso ético y responsable de chatbots en contextos organizacionales.
+- Utilizar asistentes de inteligencia artificial para apoyar tareas de programación.
+- Formular prompts claros para resolver problemas técnicos.
+- Evaluar críticamente la calidad de las respuestas generadas por IA.
+- Identificar limitaciones y errores en las respuestas de sistemas de IA.
+- Reflexionar sobre el uso responsable de IA en contextos profesionales.
 
-
+---
 
 ## Material de trabajo
 
-* Acceso a un chatbot de IA (ChatGPT, Gemini, Copilot u otro).
-* Documento de apoyo con ejemplos de prompts (provisto por el docente).
-* Caso de decisión planteado en la actividad.
+- Notebook en Google Colab (provisto por el docente).
+- Fragmentos de código en Python incluidos en el notebook.
+- Acceso a un asistente de IA (ChatGPT, Gemini, Claude u otro).
 
-No se requiere programación ni conocimientos técnicos avanzados.
+No es necesario instalar librerías adicionales ni utilizar API.
 
+---
 
+## Instrucciones generales
 
-## Caso de decisión
+1. Abre el notebook en Google Colab.
+2. Ejecuta las celdas de código para observar su funcionamiento.
+3. En algunas secciones el código estará incompleto o requerirá mejoras.
+4. Utiliza un asistente de IA para ayudarte a resolver la tarea.
+5. Documenta en el notebook:
+   - el prompt utilizado
+   - la respuesta entregada por la IA
+   - tu evaluación de la respuesta
+   - posibles modificaciones al prompt
+6. Ejecuta el código sugerido y analiza el resultado obtenido.
+7. Completa las secciones de reflexión incluidas en el notebook.
 
-Una organización desea implementar un sistema de apoyo basado en inteligencia artificial para **priorizar acciones o recomendaciones** en uno de los siguientes contextos (elige uno):
+Finalmente descarga el notebook (.ipynb) y súbelo al Aula.
 
-* Educación: apoyo académico a estudiantes
-* Recursos Humanos: priorización de postulantes
-* Atención a clientes: categorización de solicitudes
-* Gestión interna: priorización de proyectos o tareas
+---
 
-La organización evalúa usar un **chatbot de IA** para generar recomendaciones iniciales que luego serán revisadas por un equipo humano.
+# Parte 1: Comprensión del código
 
+El siguiente código carga un conjunto de datos y muestra algunas estadísticas básicas.
 
-## Instrucciones
+```python
+import pandas as pd
 
-1. Accede a un chatbot de IA de tu elección.
-2. Formula un **prompt inicial** solicitando apoyo para el caso de decisión elegido.
-3. Registra textualmente:
+data = {
+    "horas_estudio": [2, 5, 1, 4, 6, 3],
+    "asistencia": [60, 90, 50, 80, 95, 70],
+    "resultado": [0, 1, 0, 1, 1, 0]
+}
 
-   * El prompt utilizado
-   * La respuesta entregada por el chatbot
-4. Formula al menos **dos prompts adicionales**, ajustando:
+df = pd.DataFrame(data)
+df.describe()
+````
 
-   * Nivel de detalle
-   * Contexto
-   * Restricciones
-5. Analiza críticamente las respuestas obtenidas.
-6. Responde las preguntas de análisis que se presentan a continuación.
-7. Fundamenta tus respuestas utilizando exclusivamente:
+### Preguntas
 
-   * Las respuestas del chatbot
-   * Los contenidos vistos en el módulo
+Responde en una celda Markdown:
 
+* ¿Qué información entrega `df.describe()`?
+* ¿Qué tipo de variables contiene el dataset?
 
-## Preguntas de Análisis
+---
 
-### 1. Comprensión del rol del chatbot
+# Parte 2: Uso de IA para mejorar el análisis
 
-* ¿Qué tipo de apoyo entrega el chatbot en el proceso de decisión?
-* ¿El sistema toma decisiones o solo propone alternativas?
-* ¿Qué supuestos realiza el chatbot en su respuesta?
+Queremos crear un gráfico que muestre la relación entre **horas de estudio y resultado académico**.
 
+El siguiente código está incompleto:
 
-### 2. Análisis de los prompts
+```python
+import matplotlib.pyplot as plt
 
-* ¿Qué información incluiste en el primer prompt?
-* ¿Cómo cambió la respuesta al modificar el prompt?
-* ¿Qué elementos del prompt consideras más relevantes para mejorar la calidad de la respuesta?
+plt.scatter(df["horas_estudio"], df["resultado"])
 
+# agregar etiquetas al gráfico
+# agregar título
+# mostrar gráfico
+```
 
-### 3. Evaluación crítica de las respuestas
+### Instrucciones
 
-* ¿Las respuestas entregadas son claras y coherentes?
-* ¿Detectas información ambigua, genérica o incorrecta?
-* ¿El chatbot reconoce sus propias limitaciones?
+Utiliza un asistente de IA para completar el código.
 
+Documenta lo siguiente:
 
-### 4. Riesgos y sesgos
+#### Prompt utilizado
 
-* ¿Qué riesgos tendría usar directamente esta respuesta para tomar una decisión real?
-* ¿Podrían existir sesgos en la recomendación entregada?
-* ¿Qué información adicional sería necesaria antes de decidir?
+Escribe aquí el prompt que utilizaste para pedir ayuda al asistente.
 
+#### Respuesta de la IA
 
-### 5. Decisiones asistidas vs automatizadas
+Copia el código sugerido por el asistente.
 
-* ¿Este caso es adecuado para una decisión asistida por IA?
-* ¿Sería apropiado automatizar completamente esta decisión? ¿Por qué?
-* ¿Qué rol debería cumplir el decisor humano?
+#### Evaluación
 
+Responde:
 
-### 6. Reflexión ética y organizacional
+* ¿El código sugerido funcionó correctamente?
+* ¿Tuviste que modificar algo?
+* ¿La explicación del asistente fue clara?
 
-* ¿Qué aspectos éticos deben considerarse al usar chatbots en este contexto?
-* ¿Quién debería ser responsable de la decisión final?
-* ¿En qué situaciones sería preferible no usar un chatbot de IA?
+---
 
+# Parte 3: Refinamiento del prompt
 
-## Entregable
+Ahora intenta mejorar tu prompt inicial.
 
-* Documento en formato Markdown o PDF.
-* Extensión máxima: 2 a 3 páginas.
-* Debe incluir:
+Incluye más contexto, por ejemplo:
 
-  * Prompts utilizados
-  * Respuestas del chatbot
-  * Análisis y reflexión crítica
+* qué hace el código
+* qué librería estás usando
+* qué resultado esperas obtener
 
+### Prompt mejorado
 
-## Criterios de Evaluación
+Escribe aquí el nuevo prompt.
 
-| Criterio                  | Logrado (100%)                                            | Adecuado (80%)              | Básico (60%)            | Insuficiente (0%)               |
-| ------------------------- | --------------------------------------------------------- | --------------------------- | ----------------------- | ------------------------------- |
-| Uso del chatbot           | Prompts claros, bien estructurados y pertinentes          | Prompts adecuados           | Prompts poco claros     | No comprende el uso del chatbot |
-| Análisis crítico          | Análisis profundo y bien fundamentado                     | Análisis adecuado           | Análisis superficial    | No analiza críticamente         |
-| Identificación de riesgos | Identifica claramente riesgos y sesgos                    | Identifica algunos riesgos  | Identificación limitada | No identifica riesgos           |
-| Decisión asistida         | Distingue correctamente entre asistencia y automatización | Distinción general correcta | Distinción poco clara   | No distingue                    |
-| Reflexión ética           | Reflexión ética sólida y contextualizada                  | Reflexión adecuada          | Reflexión superficial   | No reflexiona                   |
+### Nueva respuesta del asistente
 
-> **Puntaje total: 100 puntos**
+Copia la respuesta generada.
 
+### Comparación
 
-## Consideraciones finales
+Responde:
 
-* No se evalúa la “calidad” del chatbot, sino la **capacidad del estudiante para analizarlo críticamente**.
-* No existen respuestas únicas.
-* Se valorará especialmente la **capacidad de cuestionar y no aceptar ciegamente las respuestas de la IA**.
+* ¿La nueva respuesta fue mejor que la anterior?
+* ¿Qué diferencias observas?
+* ¿Qué aprendiste sobre cómo formular prompts?
+
+---
+
+# Parte 4: Uso de IA para interpretar resultados
+
+Ejecuta el gráfico generado.
+
+Luego pregunta al asistente de IA algo como:
+
+> ¿Qué interpretación se podría hacer de este gráfico?
+
+### Documenta
+
+* prompt utilizado
+* respuesta del sistema
+
+### Análisis
+
+Responde:
+
+* ¿La interpretación del asistente te parece correcta?
+* ¿Hay afirmaciones exageradas o poco justificadas?
+
+---
+
+# Parte 5: Reflexión crítica sobre el uso de IA
+
+Responde las siguientes preguntas:
+
+* ¿En qué aspectos el asistente de IA fue útil durante esta actividad?
+* ¿En qué momentos fue necesario revisar o corregir sus respuestas?
+* ¿Qué riesgos existirían si un programador utilizara estas respuestas sin revisarlas?
+* ¿En qué tipo de tareas técnicas consideras más útil el apoyo de IA?
+
+---
+
+# Entregable
+
+* Notebook en formato `.ipynb`.
+* Todas las respuestas deben estar dentro del notebook.
+* Se deben incluir los prompts utilizados y las respuestas del sistema.
+
+---
+
+# Criterios de Evaluación
+
+| Criterio               | Descripción                                         |
+| ---------------------- | --------------------------------------------------- |
+| Uso de IA              | Documenta correctamente prompts y respuestas        |
+| Evaluación crítica     | Analiza de forma reflexiva las respuestas generadas |
+| Comprensión del código | Explica correctamente el funcionamiento del código  |
+| Reflexión final        | Identifica beneficios y riesgos del uso de IA       |

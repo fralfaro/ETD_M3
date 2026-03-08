@@ -1,4 +1,4 @@
-# Fundamentos de la Toma de Decisiones Basadas en Datos
+﻿# Fundamentos de la Toma de Decisiones Basadas en Datos
 
 ## INTRODUCCIÓN
 
@@ -124,6 +124,20 @@ Un principio clave es que **una métrica que no influye en una decisión concret
 
 
 
+## 6. MARCO PRÁCTICO PARA DECIDIR CON DATOS
+
+Para transformar la teoría en práctica, se recomienda aplicar este flujo mínimo en cualquier decisión organizacional:
+
+1. Definir la decisión y el objetivo (qué se busca mejorar y en cuánto).
+2. Seleccionar 2 a 4 indicadores clave vinculados al objetivo.
+3. Validar calidad de datos (completitud, actualidad y consistencia).
+4. Realizar análisis exploratorio breve antes de interpretar resultados.
+5. Evaluar alternativas y riesgos de cada opción.
+6. Registrar decisión, resultado esperado y criterio utilizado.
+
+Este marco ayuda a que las decisiones sean más trazables y comparables en el tiempo.
+
+
 ## CONCLUSIONES
 
 La toma de decisiones en contextos organizacionales constituye un proceso complejo, influido por la incertidumbre, la disponibilidad de información y la presión por resultados. En este escenario, el uso de datos se presenta como un elemento clave para fortalecer la calidad del análisis y reducir los riesgos asociados a decidir sin evidencia suficiente.
@@ -166,4 +180,5 @@ Comprender los fundamentos de la toma de decisiones basadas en datos constituye 
 * Few, S. (2012). *Show Me the Numbers: Designing Tables and Graphs to Enlighten*. Analytics Press.
 
   > Referencia clave para comprender cómo los datos apoyan decisiones a través de información clara.
+
 

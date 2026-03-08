@@ -57,6 +57,15 @@ Al finalizar el módulo, el o la participante será capaz de:
 
 
 
+## Planificación semanal y contenidos
+
+| Semana | Contenido |
+|--------|-----------|
+| [Semana 01](./semana_01/README.md) | Fundamentos de toma de decisiones basadas en datos. |
+| [Semana 02](./semana_02/README.md) | Modelos predictivos e interpretación para decidir. |
+| [Semana 03](./semana_03/README.md) | IA para decisiones: límites, sesgos y uso responsable. |
+
+
 ## Metodología de enseñanza y aprendizaje
 
 El módulo se desarrolla mediante clases participativas, análisis de conjuntos de datos reales o simulados, estudio de casos y simulaciones de decisiones estratégicas. Se promueve el aprendizaje experiencial, el uso de herramientas digitales y la reflexión crítica, fortaleciendo el liderazgo analítico en entornos digitales.
