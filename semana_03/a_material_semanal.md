@@ -36,10 +36,8 @@ Además, es importante comprender que la inteligencia artificial no es una únic
 
 En esta semana nos centraremos especialmente en **modelos de lenguaje y asistentes inteligentes**, ya que son las herramientas que actualmente se integran con mayor rapidez en el trabajo cotidiano.
 
-> **Imagen sugerida**  
-> Ilustración de interacción humano–IA donde una persona revisa o valida la respuesta de un asistente inteligente.
+<img src="images/img_01.png" align="center" width="700">
 
----
 
 ## 1. ¿QUÉ ES (Y QUÉ NO ES) LA INTELIGENCIA ARTIFICIAL?
 
@@ -67,9 +65,8 @@ Esto no implica que sean inútiles. Por el contrario, pueden ser herramientas mu
 > **Mensaje clave**  
 > *La IA no “entiende”: identifica y reproduce patrones.*
 
-> **Imagen sugerida**  
-> Diagrama simple:  
-> **Texto de entrada → Modelo de lenguaje → Probabilidades de palabras → Respuesta generada**
+<img src="images/img_011.png" align="center" width="600">
+
 
 ---
 
@@ -123,11 +120,8 @@ Una organización que incorpora IA sin adaptar sus procesos difícilmente obtend
 > **Idea clave**  
 > El valor de la IA no está solo en la herramienta, sino en **cómo se integra en los procesos organizacionales**.
 
-> **Imagen sugerida**  
-> Flujo simple:  
-> Humano → Consulta → IA → Respuesta → Evaluación humana
+<img src="images/img_03.avif" align="center" width="700">
 
----
 
 ## 3. DECISIONES ASISTIDAS VS DECISIONES AUTOMATIZADAS
 
@@ -164,11 +158,7 @@ Por esta razón, **no toda decisión debe automatizarse**, especialmente aquella
 > **Frase clave**  
 > *Que algo pueda automatizarse no significa que deba automatizarse.*
 
-> **Imagen sugerida**  
-> Comparación visual:  
-> IA → recomendación → humano decide  
-> vs  
-> IA → decisión automática
+<img src="images/img_022.png" align="center" width="700">
 
 ---
 
@@ -200,11 +190,8 @@ En términos decisionales, esto implica que:
 
 Aprender a utilizar asistentes de IA implica, en muchos casos, **aprender a definir mejor las preguntas y problemas que se quieren resolver**.
 
-> **Imagen sugerida**  
-> Diagrama tipo embudo:  
-> Idea inicial → Contexto → Tarea → Restricciones → Prompt refinado
+<img src="images/img_04.png" align="center" width="700">
 
----
 
 ## 5. PROBLEMAS COMUNES DE LOS MODELOS DE LENGUAJE
 
@@ -228,11 +215,9 @@ Desde la perspectiva de la toma de decisiones, esto implica que:
 > **Idea clave**  
 > La IA puede ser un buen punto de partida para el análisis, pero **no debe ser la única fuente de decisión**.
 
-> **Imagen sugerida**  
-> Cuatro cuadrantes:  
-> error factual – ambigüedad – sesgo – información obsoleta
 
----
+
+<img src="images/img_055.png" align="center" width="600">
 
 ## 6. SESGOS Y RIESGOS EN EL USO DE IA
 
@@ -252,6 +237,9 @@ Cuando estos datos se utilizan para entrenar sistemas de IA, existe el riesgo de
 
 > **Mensaje clave**  
 > *La IA no elimina sesgos: puede amplificarlos.*
+
+<img src="images/img_0555.png" align="center" width="600">
+
 
 Por esta razón, las organizaciones deben evaluar cuidadosamente **qué datos utilizan y cómo interpretan los resultados generados por los sistemas de IA**.
 
@@ -275,10 +263,9 @@ La explicabilidad cumple varias funciones importantes:
 
 Un sistema útil no solo debe producir resultados, sino también **permitir comprender cómo se llegó a ellos**.
 
-> **Imagen sugerida**  
-> Comparación visual entre **modelo caja negra** y **modelo explicable**.
+<img src="images/img_06.jpg" align="center" width="600">
 
----
+
 
 ## 8. ÉTICA Y USO RESPONSABLE DE LA IA
 
@@ -296,7 +283,8 @@ La ética no debe entenderse como un obstáculo para la innovación, sino como u
 
 Las organizaciones que integran estos principios en sus procesos suelen desarrollar **mayor legitimidad, confianza y estabilidad en el uso de tecnologías emergentes**.
 
----
+<img src="images/img_07.png" align="center" width="600">
+
 
 ## 9. ¿CUÁNDO NO USAR IA?
 
@@ -311,7 +299,7 @@ Algunas situaciones donde se recomienda cautela incluyen:
 
 En estos casos, **decidir no utilizar IA puede ser una decisión estratégica correcta**.
 
----
+
 
 ## 10. GUÍA BREVE DE IMPLEMENTACIÓN RESPONSABLE DE IA
 
